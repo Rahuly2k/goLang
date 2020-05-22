@@ -1,0 +1,152 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.025);
+    transition: all 200ms ease;
+}
+.top_bar {
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: solid 1px #ebebeb;
+    z-index: 10;
+}
+.top_bar_container {
+    width: 100%;
+}
+.header_container{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 20px;
+}
+.top_bar_content {
+    height: 49px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
+}
+.top_bar_lang {
+    display: inline-block;
+}
+.top_bar_title {
+    margin-right: 10px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+.lang_list {
+    display: inline-block;
+}
+.lang_list > li {
+    display: inline-block;
+}
+.lang_list li a {
+    color: rgba(0,0,0,0.4);
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.lang_list > li ul {
+    position: absolute;
+    right: -10px;
+    top: 44px;
+    background: #FFFFFF;
+    padding-right: 23px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+    visibility: hidden;
+    opacity: 0;
+}
+.lang_list > li ul li {
+    text-align: right;
+}
+.top_bar_social {
+    display: inline-block;
+    margin-left: 79px;
+    margin-right: -6px;
+}
+.social_title {
+    margin-right: 13px;
+}
+
+.top_bar_title {
+    margin-right: 10px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+.top_bar_social ul {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+.top_bar_social ul li {
+    display: inline-block;
+}
+.top_bar_social ul li a{
+    padding-left: 11px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.logo_text {
+    font-family: 'Poppins', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0.75;
+    color: #2e21df;
+    vertical-align: middle;
+    transition: all 200ms ease;
+}
+.logo_container {
+    width: 100px;
+}
+.main_nav, .user {
+    display: inline-block;
+}
+.main_nav li {
+    display: inline-block;
+    position: relative;
+}
+.main_nav li:not(:last-child) {
+    margin-right: 20px;
+}
+.header_content_right {
+    width: 100px;
+}
+.main_nav li.active a {
+    color: rgba(0,0,0,0.8);
+}
+.main_nav li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.45);
+    transition: all 200ms ease;
+}
+.header_search {
+    display: inline-block;
+    width: 18px;
+    height: 42px;
+    vertical-align: middle;
+}
+.user {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 38px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.logo_container {
+    width: 190px;
+}
